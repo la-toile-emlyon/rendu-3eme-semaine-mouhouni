@@ -1,0 +1,110 @@
+.naviguation {
+    font-family: Noto sans;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    height: 20%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Noto sans;
+    color: #008844;
+
+}
+
+.contenu {
+    text-align: left;
+    margin: 50px;
+}
+
+h2 {
+    font-family: New Amsterdam;
+    font-size: 69px;
+    color: #008844;
+
+}
+
+p {
+    font-family: Noto sans;
+    font-size: 23px;
+    color: #000;
+}
+
+.flex {
+    display: flex;
+}
+
+.bouton1 {
+    color: white;
+    background-color: #008844;
+    font-family: New amsterdam;
+    border-color: #008844;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.bouton2 {
+    color: #008844;
+    background-color: white;
+    font-family: New amsterdam;
+    border-color: #008844;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.promesses {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 80px;
+}
+
+.liste {
+    list-style: none;
+    padding: 0px;
+}
+
+.liste li {
+    margin-bottom: 15px;
+}
+
+.approche {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: auto;
+}
+
+.approche {
+    img{
+        max-width: 600px;
+
+    }
+
+}
+
+.bouton3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: #008844;
+    font-family: New amsterdam;
+    border-color: #008844;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.services{
+    
+}
