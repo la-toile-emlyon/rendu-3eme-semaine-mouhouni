@@ -25,7 +25,14 @@ h2 {
     font-family: New Amsterdam;
     font-size: 69px;
     color: #008844;
+    text-align: center;
 
+}
+h3{
+  font-family: New Amsterdam;
+    font-size: 49px;
+    color: #008844;
+    text-align: center;  
 }
 
 p {
@@ -91,20 +98,40 @@ p {
     }
 
 }
-
-.bouton3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: white;
-    background-color: #008844;
-    font-family: New amsterdam;
-    border-color: #008844;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 10px;
+.presantations{
+    margin: 80px;
 }
-.services{
-    
+
+
+.card{
+display: flex;
+flex-direction: row;
+padding: 15px;
+height: auto;
+width: 250px;
+align-content: center;
+gap: 16px;
+
+
+}
+.servivces{
+display: flex;
+gap: 20px;
+
+}
+.realisation{
+     display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 80px;
+}
+.image1{
+ max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: auto;
+}
+.textimage1{
+margin-bottom: 15px;
 }
